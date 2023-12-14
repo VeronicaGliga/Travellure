@@ -19,6 +19,8 @@
 		013BEA442B2B4FE700111DCB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA432B2B4FE700111DCB /* MapView.swift */; };
 		013BEA462B2B4FF600111DCB /* SavedItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA452B2B4FF600111DCB /* SavedItemsView.swift */; };
 		013BEA482B2B500900111DCB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA472B2B500900111DCB /* ProfileView.swift */; };
+		013BEA4D2B2B667400111DCB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA4C2B2B667400111DCB /* HomeViewModel.swift */; };
+		013BEA502B2B669900111DCB /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA4F2B2B669900111DCB /* Destination.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		013BEA432B2B4FE700111DCB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		013BEA452B2B4FF600111DCB /* SavedItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedItemsView.swift; sourceTree = "<group>"; };
 		013BEA472B2B500900111DCB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		013BEA4C2B2B667400111DCB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		013BEA4F2B2B669900111DCB /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,15 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				013BEA142B286B6900111DCB /* TravellureApp.swift */,
-				013BEA162B286B6900111DCB /* HomeView.swift */,
-				013BEA3F2B2B4FB900111DCB /* ExploreView.swift */,
-				013BEA412B2B4FCF00111DCB /* CommunityView.swift */,
-				013BEA432B2B4FE700111DCB /* MapView.swift */,
-				013BEA452B2B4FF600111DCB /* SavedItemsView.swift */,
-				013BEA472B2B500900111DCB /* ProfileView.swift */,
-				013BEA182B286B6B00111DCB /* Assets.xcassets */,
-				013BEA1A2B286B6B00111DCB /* Travellure.entitlements */,
+				013BEA512B2B66A000111DCB /* Models */,
 				013BEA1B2B286B6B00111DCB /* Preview Content */,
+				013BEA522B2B66EF00111DCB /* Resources */,
+				013BEA4E2B2B667800111DCB /* ViewModels */,
+				013BEA4B2B2B665A00111DCB /* Views */,
 			);
 			path = Travellure;
 			sourceTree = "<group>";
@@ -142,6 +142,44 @@
 				013BEA322B286B6B00111DCB /* TravellureUITestsLaunchTests.swift */,
 			);
 			path = TravellureUITests;
+			sourceTree = "<group>";
+		};
+		013BEA4B2B2B665A00111DCB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				013BEA162B286B6900111DCB /* HomeView.swift */,
+				013BEA3F2B2B4FB900111DCB /* ExploreView.swift */,
+				013BEA412B2B4FCF00111DCB /* CommunityView.swift */,
+				013BEA432B2B4FE700111DCB /* MapView.swift */,
+				013BEA452B2B4FF600111DCB /* SavedItemsView.swift */,
+				013BEA472B2B500900111DCB /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		013BEA4E2B2B667800111DCB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				013BEA4C2B2B667400111DCB /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		013BEA512B2B66A000111DCB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				013BEA4F2B2B669900111DCB /* Destination.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		013BEA522B2B66EF00111DCB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				013BEA182B286B6B00111DCB /* Assets.xcassets */,
+				013BEA1A2B286B6B00111DCB /* Travellure.entitlements */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +315,9 @@
 				013BEA172B286B6900111DCB /* HomeView.swift in Sources */,
 				013BEA402B2B4FB900111DCB /* ExploreView.swift in Sources */,
 				013BEA462B2B4FF600111DCB /* SavedItemsView.swift in Sources */,
+				013BEA4D2B2B667400111DCB /* HomeViewModel.swift in Sources */,
 				013BEA442B2B4FE700111DCB /* MapView.swift in Sources */,
+				013BEA502B2B669900111DCB /* Destination.swift in Sources */,
 				013BEA422B2B4FCF00111DCB /* CommunityView.swift in Sources */,
 				013BEA482B2B500900111DCB /* ProfileView.swift in Sources */,
 				013BEA152B286B6900111DCB /* TravellureApp.swift in Sources */,
@@ -350,6 +390,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Resources/Travellure.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -411,6 +452,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Resources/Travellure.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -436,7 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Travellure/Travellure.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Travellure/Resources/Travellure.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Travellure/Preview Content\"";
@@ -472,7 +514,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Travellure/Travellure.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Travellure/Resources/Travellure.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Travellure/Preview Content\"";
