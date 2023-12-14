@@ -16,7 +16,7 @@ struct Destination: Codable, Identifiable {
     var image: String
 }
 
-let testDetination = Destination(id: 1, category: .nearby, country: "Spain", city: "Barcelona", description: "Bla bla bla bla bla", image: "")
+let testDetination = Destination(id: 1, category: .nearby, country: "Spain", city: "Barcelona", description: "Bla bla bla bla bla", image: "barcelona")
 
 class SuggestionModel {
     
@@ -54,7 +54,7 @@ let testData = """
             "country": "Spain",
             "city": "Barcelona",
             "description": "The classic pizza of Buffalo. Mozzarella, tomatoes, and basil on a Neopolitan crust",
-            "image": "philippines"
+            "image": "barcelona"
        },
     {
             "id": 1,
@@ -62,7 +62,7 @@ let testData = """
             "country": "Spain",
             "city": "Valencia",
             "description": "A blend of Asiago, Parmesan, buffalo mozzarella, and Gorgonzola on a Neopolitan crust",
-            "image": "philippines"
+            "image": "valencia"
        },
     {
             "id": 2,
@@ -70,7 +70,7 @@ let testData = """
             "country": "France",
             "city": "Paris",
             "description": "A meaty calzone exploding like a volcano. Sausage combined with vegetables, pineapple, and a special lava sauce leaking out the top crater. Definitely share this one.",
-            "image": "philippines"
+            "image": "paris"
        },
     {
             "id": 3,
@@ -78,7 +78,7 @@ let testData = """
             "country": "Hungary",
             "city": "Budapest",
             "description": "A very long flatbread for vegetarians and vegans, made with olive oil, mushrooms, garlic, fresh ginger, and macadamias, sweetened with lilikoi.",
-            "image": "philippines"
+            "image": "budapest"
        },
     {
             "id": 4,
@@ -86,7 +86,7 @@ let testData = """
             "country": "Croatia",
             "city": "Zadar",
             "description": " The New York classic version. A thin crust with pizza sauce, cheese, and pepperoni.",
-            "image": "philippines"
+            "image": "zadar"
        },
     {
             "id": 5,
@@ -102,7 +102,7 @@ let testData = """
             "country": "Austria",
             "city": "Solden",
             "description": "A deep dish for the carnivore. Sausage and pepperoni in the classic Chicago deep dish.",
-            "image": "philippines"
+            "image": "solden"
        },
     {
             "id": 7,
@@ -110,14 +110,14 @@ let testData = """
             "country": "England",
             "city": "London",
             "description": "BBQ Chicken: Grilled chicken with barbecue sauce, red onions, and peppers on a Neopolitan crust",
-            "image": "philippines"
+            "image": "london"
        },{
             "id": 8,
             "category": "City break",
             "country": "Switzerland",
             "city": "Zürich",
             "description": "Huli Chicken: Our original Hawaiian street food pizza, with Huli Huli chicken, onions, ginger, crushed macadamia nuts, tomato sauce, and cheese on a classic crust.",
-            "image": "philippines"
+            "image": "swiss"
        },
     {
             "id": 9,
@@ -133,7 +133,7 @@ let testData = """
             "country": "Poland",
             "city": "Warsaw",
             "description": "Spam, Furikake, Nori on a bed of Sushi rice",
-            "image": "philippines"
+            "image": "oahu"
        },
     {
             "id": 11,
@@ -141,7 +141,7 @@ let testData = """
             "country": "Hawaii",
             "city": "Oahu",
             "description": "Coffee-Smoked Tofu, Pineapple,  Ube, and Nori on a bed of Sushi rice",
-            "image": "philippines"
+            "image": "oahu"
        }
     ]
     }
