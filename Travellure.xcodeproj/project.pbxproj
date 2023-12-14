@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		013BEA152B286B6900111DCB /* TravellureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA142B286B6900111DCB /* TravellureApp.swift */; };
-		013BEA172B286B6900111DCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA162B286B6900111DCB /* ContentView.swift */; };
+		013BEA172B286B6900111DCB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA162B286B6900111DCB /* HomeView.swift */; };
 		013BEA192B286B6B00111DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013BEA182B286B6B00111DCB /* Assets.xcassets */; };
 		013BEA1D2B286B6B00111DCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013BEA1C2B286B6B00111DCB /* Preview Assets.xcassets */; };
 		013BEA272B286B6B00111DCB /* TravellureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA262B286B6B00111DCB /* TravellureTests.swift */; };
@@ -41,7 +41,7 @@
 /* Begin PBXFileReference section */
 		013BEA112B286B6900111DCB /* Travellure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travellure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		013BEA142B286B6900111DCB /* TravellureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellureApp.swift; sourceTree = "<group>"; };
-		013BEA162B286B6900111DCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		013BEA162B286B6900111DCB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		013BEA182B286B6B00111DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		013BEA1A2B286B6B00111DCB /* Travellure.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Travellure.entitlements; sourceTree = "<group>"; };
 		013BEA1C2B286B6B00111DCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				013BEA142B286B6900111DCB /* TravellureApp.swift */,
-				013BEA162B286B6900111DCB /* ContentView.swift */,
+				013BEA162B286B6900111DCB /* HomeView.swift */,
 				013BEA3F2B2B4FB900111DCB /* ExploreView.swift */,
 				013BEA412B2B4FCF00111DCB /* CommunityView.swift */,
 				013BEA432B2B4FE700111DCB /* MapView.swift */,
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				013BEA172B286B6900111DCB /* ContentView.swift in Sources */,
+				013BEA172B286B6900111DCB /* HomeView.swift in Sources */,
 				013BEA402B2B4FB900111DCB /* ExploreView.swift in Sources */,
 				013BEA462B2B4FF600111DCB /* SavedItemsView.swift in Sources */,
 				013BEA442B2B4FE700111DCB /* MapView.swift in Sources */,
