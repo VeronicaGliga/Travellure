@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013BEA152B286B6900111DCB /* TravellureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA142B286B6900111DCB /* TravellureApp.swift */; };
+		013BEA172B286B6900111DCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA162B286B6900111DCB /* ContentView.swift */; };
+		013BEA192B286B6B00111DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013BEA182B286B6B00111DCB /* Assets.xcassets */; };
+		013BEA1D2B286B6B00111DCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013BEA1C2B286B6B00111DCB /* Preview Assets.xcassets */; };
+		013BEA272B286B6B00111DCB /* TravellureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA262B286B6B00111DCB /* TravellureTests.swift */; };
+		013BEA312B286B6B00111DCB /* TravellureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA302B286B6B00111DCB /* TravellureUITests.swift */; };
+		013BEA332B286B6B00111DCB /* TravellureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA322B286B6B00111DCB /* TravellureUITestsLaunchTests.swift */; };
+		013BEA402B2B4FB900111DCB /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA3F2B2B4FB900111DCB /* ExploreView.swift */; };
+		013BEA422B2B4FCF00111DCB /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA412B2B4FCF00111DCB /* CommunityView.swift */; };
+		013BEA442B2B4FE700111DCB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA432B2B4FE700111DCB /* MapView.swift */; };
+		013BEA462B2B4FF600111DCB /* SavedItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA452B2B4FF600111DCB /* SavedItemsView.swift */; };
+		013BEA482B2B500900111DCB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA472B2B500900111DCB /* ProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		013BEA232B286B6B00111DCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 013BEA092B286B6900111DCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 013BEA102B286B6900111DCB;
+			remoteInfo = Travellure;
+		};
+		013BEA2D2B286B6B00111DCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 013BEA092B286B6900111DCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 013BEA102B286B6900111DCB;
+			remoteInfo = Travellure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013BEA112B286B6900111DCB /* Travellure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travellure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		013BEA142B286B6900111DCB /* TravellureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellureApp.swift; sourceTree = "<group>"; };
+		013BEA162B286B6900111DCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		013BEA182B286B6B00111DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		013BEA1A2B286B6B00111DCB /* Travellure.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Travellure.entitlements; sourceTree = "<group>"; };
+		013BEA1C2B286B6B00111DCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		013BEA222B286B6B00111DCB /* TravellureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravellureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		013BEA262B286B6B00111DCB /* TravellureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellureTests.swift; sourceTree = "<group>"; };
+		013BEA2C2B286B6B00111DCB /* TravellureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravellureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		013BEA302B286B6B00111DCB /* TravellureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellureUITests.swift; sourceTree = "<group>"; };
+		013BEA322B286B6B00111DCB /* TravellureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		013BEA3F2B2B4FB900111DCB /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		013BEA412B2B4FCF00111DCB /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		013BEA432B2B4FE700111DCB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		013BEA452B2B4FF600111DCB /* SavedItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedItemsView.swift; sourceTree = "<group>"; };
+		013BEA472B2B500900111DCB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013BEA0E2B286B6900111DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013BEA1F2B286B6B00111DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013BEA292B286B6B00111DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013BEA082B286B6900111DCB = {
+			isa = PBXGroup;
+			children = (
+				013BEA132B286B6900111DCB /* Travellure */,
+				013BEA252B286B6B00111DCB /* TravellureTests */,
+				013BEA2F2B286B6B00111DCB /* TravellureUITests */,
+				013BEA122B286B6900111DCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		013BEA122B286B6900111DCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				013BEA112B286B6900111DCB /* Travellure.app */,
+				013BEA222B286B6B00111DCB /* TravellureTests.xctest */,
+				013BEA2C2B286B6B00111DCB /* TravellureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		013BEA132B286B6900111DCB /* Travellure */ = {
+			isa = PBXGroup;
+			children = (
+				013BEA142B286B6900111DCB /* TravellureApp.swift */,
+				013BEA162B286B6900111DCB /* ContentView.swift */,
+				013BEA3F2B2B4FB900111DCB /* ExploreView.swift */,
+				013BEA412B2B4FCF00111DCB /* CommunityView.swift */,
+				013BEA432B2B4FE700111DCB /* MapView.swift */,
+				013BEA452B2B4FF600111DCB /* SavedItemsView.swift */,
+				013BEA472B2B500900111DCB /* ProfileView.swift */,
+				013BEA182B286B6B00111DCB /* Assets.xcassets */,
+				013BEA1A2B286B6B00111DCB /* Travellure.entitlements */,
+				013BEA1B2B286B6B00111DCB /* Preview Content */,
+			);
+			path = Travellure;
+			sourceTree = "<group>";
+		};
+		013BEA1B2B286B6B00111DCB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				013BEA1C2B286B6B00111DCB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		013BEA252B286B6B00111DCB /* TravellureTests */ = {
+			isa = PBXGroup;
+			children = (
+				013BEA262B286B6B00111DCB /* TravellureTests.swift */,
+			);
+			path = TravellureTests;
+			sourceTree = "<group>";
+		};
+		013BEA2F2B286B6B00111DCB /* TravellureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				013BEA302B286B6B00111DCB /* TravellureUITests.swift */,
+				013BEA322B286B6B00111DCB /* TravellureUITestsLaunchTests.swift */,
+			);
+			path = TravellureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		013BEA102B286B6900111DCB /* Travellure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013BEA362B286B6B00111DCB /* Build configuration list for PBXNativeTarget "Travellure" */;
+			buildPhases = (
+				013BEA0D2B286B6900111DCB /* Sources */,
+				013BEA0E2B286B6900111DCB /* Frameworks */,
+				013BEA0F2B286B6900111DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Travellure;
+			productName = Travellure;
+			productReference = 013BEA112B286B6900111DCB /* Travellure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		013BEA212B286B6B00111DCB /* TravellureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013BEA392B286B6B00111DCB /* Build configuration list for PBXNativeTarget "TravellureTests" */;
+			buildPhases = (
+				013BEA1E2B286B6B00111DCB /* Sources */,
+				013BEA1F2B286B6B00111DCB /* Frameworks */,
+				013BEA202B286B6B00111DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				013BEA242B286B6B00111DCB /* PBXTargetDependency */,
+			);
+			name = TravellureTests;
+			productName = TravellureTests;
+			productReference = 013BEA222B286B6B00111DCB /* TravellureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		013BEA2B2B286B6B00111DCB /* TravellureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013BEA3C2B286B6B00111DCB /* Build configuration list for PBXNativeTarget "TravellureUITests" */;
+			buildPhases = (
+				013BEA282B286B6B00111DCB /* Sources */,
+				013BEA292B286B6B00111DCB /* Frameworks */,
+				013BEA2A2B286B6B00111DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				013BEA2E2B286B6B00111DCB /* PBXTargetDependency */,
+			);
+			name = TravellureUITests;
+			productName = TravellureUITests;
+			productReference = 013BEA2C2B286B6B00111DCB /* TravellureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		013BEA092B286B6900111DCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					013BEA102B286B6900111DCB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					013BEA212B286B6B00111DCB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 013BEA102B286B6900111DCB;
+					};
+					013BEA2B2B286B6B00111DCB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 013BEA102B286B6900111DCB;
+					};
+				};
+			};
+			buildConfigurationList = 013BEA0C2B286B6900111DCB /* Build configuration list for PBXProject "Travellure" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 013BEA082B286B6900111DCB;
+			productRefGroup = 013BEA122B286B6900111DCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				013BEA102B286B6900111DCB /* Travellure */,
+				013BEA212B286B6B00111DCB /* TravellureTests */,
+				013BEA2B2B286B6B00111DCB /* TravellureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		013BEA0F2B286B6900111DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013BEA1D2B286B6B00111DCB /* Preview Assets.xcassets in Resources */,
+				013BEA192B286B6B00111DCB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013BEA202B286B6B00111DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013BEA2A2B286B6B00111DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013BEA0D2B286B6900111DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013BEA172B286B6900111DCB /* ContentView.swift in Sources */,
+				013BEA402B2B4FB900111DCB /* ExploreView.swift in Sources */,
+				013BEA462B2B4FF600111DCB /* SavedItemsView.swift in Sources */,
+				013BEA442B2B4FE700111DCB /* MapView.swift in Sources */,
+				013BEA422B2B4FCF00111DCB /* CommunityView.swift in Sources */,
+				013BEA482B2B500900111DCB /* ProfileView.swift in Sources */,
+				013BEA152B286B6900111DCB /* TravellureApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013BEA1E2B286B6B00111DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013BEA272B286B6B00111DCB /* TravellureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013BEA282B286B6B00111DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013BEA332B286B6B00111DCB /* TravellureUITestsLaunchTests.swift in Sources */,
+				013BEA312B286B6B00111DCB /* TravellureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		013BEA242B286B6B00111DCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 013BEA102B286B6900111DCB /* Travellure */;
+			targetProxy = 013BEA232B286B6B00111DCB /* PBXContainerItemProxy */;
+		};
+		013BEA2E2B286B6B00111DCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 013BEA102B286B6900111DCB /* Travellure */;
+			targetProxy = 013BEA2D2B286B6B00111DCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		013BEA342B286B6B00111DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		013BEA352B286B6B00111DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		013BEA372B286B6B00111DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Travellure/Travellure.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Travellure/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vero.Travellure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		013BEA382B286B6B00111DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Travellure/Travellure.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Travellure/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vero.Travellure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		013BEA3A2B286B6B00111DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vero.TravellureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Travellure.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Travellure";
+			};
+			name = Debug;
+		};
+		013BEA3B2B286B6B00111DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vero.TravellureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Travellure.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Travellure";
+			};
+			name = Release;
+		};
+		013BEA3D2B286B6B00111DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vero.TravellureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Travellure;
+			};
+			name = Debug;
+		};
+		013BEA3E2B286B6B00111DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vero.TravellureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Travellure;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013BEA0C2B286B6900111DCB /* Build configuration list for PBXProject "Travellure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013BEA342B286B6B00111DCB /* Debug */,
+				013BEA352B286B6B00111DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013BEA362B286B6B00111DCB /* Build configuration list for PBXNativeTarget "Travellure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013BEA372B286B6B00111DCB /* Debug */,
+				013BEA382B286B6B00111DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013BEA392B286B6B00111DCB /* Build configuration list for PBXNativeTarget "TravellureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013BEA3A2B286B6B00111DCB /* Debug */,
+				013BEA3B2B286B6B00111DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013BEA3C2B286B6B00111DCB /* Build configuration list for PBXNativeTarget "TravellureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013BEA3D2B286B6B00111DCB /* Debug */,
+				013BEA3E2B286B6B00111DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 013BEA092B286B6900111DCB /* Project object */;
+}
