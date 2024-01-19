@@ -8,48 +8,81 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @State private var allTabs: [AnimatedTab] = Tab.allCases.compactMap { tab -> AnimatedTab? in
+        return .init(tab: tab)
+    }
+    @State private var activeTab: Tab = .explore
+    
     var body: some View {
-        TabView {
-            ExploreView(destinations: SuggestionModel().destinations)
-                .tabItem {
-                    VStack {
-                        Text("Explore")
-                        Image(systemName: "magnifyingglass.circle.fill")
-                    }
-                }
-            CommunityView()
-                .tabItem {
-                    VStack {
-                        Text("Community")
-                        Image(systemName: "person.2.circle.fill")
-                    }
-                }
-            MapView()
-                .tabItem {
-                    VStack {
-                        Text("Navigation")
-                        Image(systemName: "map.circle")
-                    }
-                }
-            SavedItemsView()
-                .tabItem {
-                    VStack {
-                        Text("Saved")
-                        Image(systemName: "square.and.arrow.down.on.square.fill")
-                    }
-                }
-            ProfileView()
-                .tabItem {
-                    VStack {
-                        Text("Profile")
-                        Image(systemName: "person.crop.circle.fill")
-                    }
-                }
+        
+        VStack {
+            TabView(selection: $activeTab){
+                ExploreView(destinations: SuggestionModel().destinations)
+                    .setUpTab(.explore)
+                CommunityView()
+                    .setUpTab(.community)
+                MapView()
+                    .setUpTab(.navigation)
+                SavedItemsView()
+                    .setUpTab(.saved)
+                ProfileView()
+                    .setUpTab(.profile)
+            }
+            .tint(.tabBarTint)
+            
+            CustomTabBar()
         }
-        .tint(.tabBarTint)
+    }
+    
+    @ViewBuilder
+    func CustomTabBar() -> some View {
+        HStack(spacing: 0) {
+            ForEach($allTabs) { $animatedTab in
+                let tab = animatedTab.tab
+                
+                VStack(spacing: 4) {
+                    Image(systemName: tab.rawValue)
+                        .font(.title2)
+                        .symbolEffect(.bounce.down.byLayer, value: animatedTab.isAnimating)
+                    
+                    Text(tab.title)
+                        .font(.caption)
+                        .textScale(.secondary)
+                }
+                .frame(maxWidth: .infinity)
+                .foregroundStyle(activeTab == tab ? Color.primary : Color.gray.opacity(0.8))
+                .padding(.top, 15)
+                .padding(.bottom, 10)
+                .contentShape(.rect)
+                .onTapGesture {
+                    withAnimation(.bouncy, completionCriteria: .logicallyComplete, {
+                        activeTab = tab
+                        animatedTab.isAnimating = true
+                    }, completion: {
+                        var trasnaction = Transaction()
+                        trasnaction.disablesAnimations = true
+                        withTransaction(trasnaction) {
+                            animatedTab.isAnimating = nil
+                        }
+                    })
+                }
+            }
+        }
+        .background(.bar)
     }
 }
 
 #Preview {
     HomeView()
+}
+
+extension View {
+    @ViewBuilder
+    func setUpTab(_ tab: Tab) -> some View {
+        self
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .tag(tab)
+            .toolbar(.hidden, for: .tabBar)
+    }
 }

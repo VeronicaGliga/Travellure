@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0138F3562B5A90DA00C6BE31 /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0138F3552B5A90DA00C6BE31 /* TabModel.swift */; };
 		013BEA152B286B6900111DCB /* TravellureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA142B286B6900111DCB /* TravellureApp.swift */; };
 		013BEA172B286B6900111DCB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BEA162B286B6900111DCB /* HomeView.swift */; };
 		013BEA192B286B6B00111DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013BEA182B286B6B00111DCB /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0138F3552B5A90DA00C6BE31 /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
 		013BEA112B286B6900111DCB /* Travellure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travellure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		013BEA142B286B6900111DCB /* TravellureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellureApp.swift; sourceTree = "<group>"; };
 		013BEA162B286B6900111DCB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -120,7 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				013BEA142B286B6900111DCB /* TravellureApp.swift */,
-				013BEA5D2B2B863F00111DCB /* Double+Extensions.swift */,
+				013BEA5F2B2C5DA900111DCB /* Helpers */,
 				013BEA512B2B66A000111DCB /* Models */,
 				013BEA1B2B286B6B00111DCB /* Preview Content */,
 				013BEA522B2B66EF00111DCB /* Resources */,
@@ -159,13 +161,11 @@
 			isa = PBXGroup;
 			children = (
 				013BEA162B286B6900111DCB /* HomeView.swift */,
-				013BEA3F2B2B4FB900111DCB /* ExploreView.swift */,
+				013BEA602B2C5E2300111DCB /* Explore */,
 				013BEA412B2B4FCF00111DCB /* CommunityView.swift */,
 				013BEA432B2B4FE700111DCB /* MapView.swift */,
 				013BEA452B2B4FF600111DCB /* SavedItemsView.swift */,
 				013BEA472B2B500900111DCB /* ProfileView.swift */,
-				013BEA572B2B7FAE00111DCB /* DestinationCellView.swift */,
-				013BEA592B2B827C00111DCB /* RatingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +184,7 @@
 				013BEA4F2B2B669900111DCB /* Destination.swift */,
 				013BEA532B2B74B500111DCB /* DestinationCategory.swift */,
 				013BEA5B2B2B839E00111DCB /* Rating.swift */,
+				0138F3552B5A90DA00C6BE31 /* TabModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -195,6 +196,24 @@
 				013BEA1A2B286B6B00111DCB /* Travellure.entitlements */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		013BEA5F2B2C5DA900111DCB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				013BEA5D2B2B863F00111DCB /* Double+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		013BEA602B2C5E2300111DCB /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				013BEA3F2B2B4FB900111DCB /* ExploreView.swift */,
+				013BEA572B2B7FAE00111DCB /* DestinationCellView.swift */,
+				013BEA592B2B827C00111DCB /* RatingView.swift */,
+			);
+			path = Explore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +355,7 @@
 				013BEA582B2B7FAE00111DCB /* DestinationCellView.swift in Sources */,
 				013BEA4D2B2B667400111DCB /* HomeViewModel.swift in Sources */,
 				013BEA442B2B4FE700111DCB /* MapView.swift in Sources */,
+				0138F3562B5A90DA00C6BE31 /* TabModel.swift in Sources */,
 				013BEA502B2B669900111DCB /* Destination.swift in Sources */,
 				013BEA422B2B4FCF00111DCB /* CommunityView.swift in Sources */,
 				013BEA482B2B500900111DCB /* ProfileView.swift in Sources */,
