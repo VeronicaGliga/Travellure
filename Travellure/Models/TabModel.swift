@@ -29,6 +29,21 @@ enum Tab: String, CaseIterable {
             return "Profile"
         }
     }
+    
+    var systemImage: String {
+        switch self {
+        case .explore:
+            return "magnifyingglass.circle.fill"
+        case .community:
+            return "person.2.crop.square.stack.fill"
+        case .navigation:
+            return "map.circle"
+        case .saved:
+            return "square.and.arrow.down.on.square.fill"
+        case .profile:
+            return "person.crop.circle.fill"
+        }
+    }
 }
 
 /// Animated SF Tab Model
