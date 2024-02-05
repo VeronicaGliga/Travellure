@@ -58,7 +58,6 @@ struct ExploreView: View {
                                 .frame(maxWidth: UIScreen.main.bounds.width - 50, maxHeight: 300)
                                 .background(.thinMaterial)
                                 .clipShape(RoundedRectangle(cornerRadius: 10))
-                            
                         }
                     }
                 }
